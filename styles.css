@@ -1,0 +1,552 @@
+@charset "UTF-8";
+/*Déclaration de mes variables couleur (selon mon thème)*/
+/*Déclaration de mes variables police d'écriture*/
+/*Déclaration de mes variables style de button*/
+/*Déclaration de mes variables margin*/
+.navbar-brand, .nav-link {
+  color: rgb(61, 63, 63);
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", "sans-serif";
+  font-weight: 500;
+  font-size: 4.5vmin;
+}
+
+.nav-link {
+  font-family: "Comfortaa", "cursive";
+  font-weight: 600;
+  font-size: 2.5vmin;
+}
+.nav-link:hover {
+  color: rgb(113, 179, 241);
+  border-bottom: 1px solid rgb(113, 179, 241);
+}
+
+.nav.navbar-nav > li {
+  padding: 0px 45px 0px 45px;
+}
+
+.container-fluid {
+  font-family: "Comfortaa", "cursive";
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col-sm {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title-landing-page {
+  color: rgb(52, 58, 109);
+  font-weight: 700;
+  font-size: 4vmin;
+  padding: 10px;
+  margin-top: 70px;
+  text-align: start;
+}
+
+.second-title-landing-page {
+  color: rgb(252, 150, 57);
+  font-weight: 700;
+  font-size: 2.8vmin;
+  padding: 10px;
+  text-align: start;
+}
+
+.btn.btn-primary {
+  background-color: rgb(52, 58, 109);
+  color: rgb(250, 246, 246) rgb(250, 246, 246);
+  font-size: 2.4vmin;
+  font-family: "Comfortaa", "cursive";
+  border: none;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 15px;
+}
+
+.button-landing-page {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#illustration-landing-page {
+  padding: 10px;
+  justify-content: center;
+}
+
+.png-blue-sections {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+
+.wave-section {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.h2-container {
+  z-index: 2;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: rgb(250, 246, 246);
+  font-weight: 700;
+  font-size: 4vmin;
+  font-family: "Comfortaa", "cursive";
+  padding: 10px;
+  z-index: 1;
+}
+
+.row.row-cols-1.row-cols-sm-3.g-4 {
+  max-width: 1400px;
+  margin-top: 3%;
+}
+
+.card.h-100 {
+  background-color: rgb(70, 134, 207);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title, .card-text {
+  color: rgb(250, 246, 246);
+  font-family: "Comfortaa", "cursive";
+}
+
+.card-title {
+  font-size: 2.8vmin;
+}
+
+.card-text {
+  font-size: 1.9vmin;
+}
+
+.container-fluid.third-section {
+  background-color: rgb(122, 135, 252);
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.h3-container {
+  text-align: center;
+  margin-top: 3%;
+}
+
+h3 {
+  color: rgb(250, 246, 246);
+  font-weight: 700;
+  font-size: 4vmin;
+  font-family: "Comfortaa", "cursive";
+}
+
+.container.illustration-third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.top-illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottom-illustration {
+  padding-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title-advantages {
+  padding-top: 2vmin;
+  text-align: center;
+  color: rgb(250, 246, 246);
+  font-weight: 700;
+  font-size: 2.6vmin;
+  font-family: "Comfortaa", "cursive";
+}
+
+.container-fluid-forth-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.p-section > p {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 246, 246);
+  font-weight: 700;
+  font-size: 5.5vmin;
+  font-family: "Comfortaa", "cursive";
+}
+
+.container-fluid-fifth-section {
+  position: relative;
+}
+
+.container-media-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h4-section {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  color: rgb(52, 58, 109);
+  font-weight: 700;
+  font-size: 4vmin;
+  font-family: "Comfortaa", "cursive";
+}
+
+.social-media-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icon {
+  height: 160px;
+  padding-left: 25px;
+  align-items: center;
+  padding-top: 3vmin;
+}
+
+.container-fluid.footer-section {
+  background-color: rgb(52, 58, 109);
+  color: rgb(250, 246, 246);
+  font-size: 1.9vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu-items > a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  padding: 8px;
+}
+
+.menu-items > li {
+  margin-right: 20px;
+}
+
+/*Responsive pour les formats tablettes*/
+@media (min-width: 576px) and (max-width: 1388px) {
+  .col-sm > svg {
+    width: 425px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .main-title-landing-page {
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 3vmin;
+  }
+  h4 {
+    font-size: 3vmin;
+    text-align: center;
+  }
+  .p-section > p {
+    font-size: 3.5vmin;
+  }
+  .social-media-icon {
+    height: 80px;
+    text-align: center;
+  }
+}
+/*Responsive pour les formats smartphones*/
+@media (max-width: 720px) {
+  .col-sm > svg {
+    width: 360px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  .col-sm {
+    padding: 5px;
+  }
+  .main-title-landing-page {
+    margin-top: 5px;
+  }
+  h2 {
+    font-size: 3vmin;
+  }
+  .button-landing-page {
+    justify-content: center;
+  }
+  .svg-card {
+    max-width: 25%;
+  }
+  h4 {
+    font-size: 3vmin;
+    text-align: center;
+  }
+  .p-section > p {
+    font-size: 3vmin;
+  }
+  .social-media-icon {
+    height: 60px;
+    text-align: center;
+  }
+}
+/*Animations CSS et Keyframes*/
+/*Roues dentées dans le background + les 3 étoiles de la section carrière*/
+#mechanism-1,
+#mechanism-2,
+#mechanism-3,
+#star-1,
+#star-2,
+#star-3 {
+  -webkit-animation: mechanism-turning 2s infinite ease-in-out;
+          animation: mechanism-turning 2s infinite ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes mechanism-turning {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes mechanism-turning {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+#left-character-head {
+  -webkit-animation: head-nodding-left 3s infinite ease-in-out;
+          animation: head-nodding-left 3s infinite ease-in-out;
+  transform-origin: left;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes head-nodding-left {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
+@keyframes head-nodding-left {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+#right-character-head {
+  -webkit-animation: head-nodding-right 3s infinite ease-in-out;
+          animation: head-nodding-right 3s infinite ease-in-out;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes head-nodding-right {
+  from {
+    transform: rotateZ(5deg);
+  }
+  to {
+    transform: rotateZ(8deg);
+  }
+}
+
+@keyframes head-nodding-right {
+  from {
+    transform: rotateZ(5deg);
+  }
+  to {
+    transform: rotateZ(8deg);
+  }
+}
+#left-character-hand {
+  -webkit-animation: hand-shaking1 3s infinite ease-in-out;
+          animation: hand-shaking1 3s infinite ease-in-out;
+  transform-origin: left;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes hand-shaking1 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-0.05turn);
+  }
+}
+
+@keyframes hand-shaking1 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-0.05turn);
+  }
+}
+#right-character-left-hand {
+  -webkit-animation: hand-shaking 3s infinite ease-in-out;
+          animation: hand-shaking 3s infinite ease-in-out;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes hand-shaking {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+
+@keyframes hand-shaking {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+#orange-sun {
+  -webkit-animation: change-colors 3s infinite;
+          animation: change-colors 3s infinite;
+}
+
+@-webkit-keyframes change-colors {
+  from {
+    fill: rgb(255, 186, 104);
+  }
+  to {
+    fill: rgb(238, 115, 15);
+  }
+}
+
+@keyframes change-colors {
+  from {
+    fill: rgb(255, 186, 104);
+  }
+  to {
+    fill: rgb(238, 115, 15);
+  }
+}
+#clock-hand-1 {
+  -webkit-animation: clock-hands-turning 3s infinite ease-in-out;
+          animation: clock-hands-turning 3s infinite ease-in-out;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes clock-hands-turning {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(60deg);
+  }
+}
+
+@keyframes clock-hands-turning {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(60deg);
+  }
+}
+#coin-dollars {
+  -webkit-animation: coin-turning 2s infinite ease-in-out;
+          animation: coin-turning 2s infinite ease-in-out;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes coin-turning {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes coin-turning {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+/*Animations avec les rectangles de la section Ressources utiles*/
+#rectangle-1:hover,
+#rectangle-2:hover,
+#rectangle-3:hover {
+  stroke: rgb(252, 150, 69);
+  stroke-width: 6px;
+}
+
+/*Animations des logos réseaux sociaux, section footer*/
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  transform: translateY(-8px);
+}/*# sourceMappingURL=styles.css.map */
