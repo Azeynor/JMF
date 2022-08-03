@@ -238,16 +238,17 @@ h4 {
   justify-content: space-evenly;
 }
 
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .menu-items > a {
   list-style: none;
   text-decoration: none;
   color: white;
-  display: inline-flex;
-  padding: 8px;
-}
-
-.menu-items > li {
-  margin-right: 20px;
+  margin-left: 25px;
 }
 
 /*Responsive pour les formats tablettes*/

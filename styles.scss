@@ -309,17 +309,23 @@ h4{
 
 }
 
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 .menu-items > a {
     list-style: none;
     text-decoration: none;
     color:white;
-    display:inline-flex;
-    padding:8px;
+    margin-left: 25px; 
  }
 
- .menu-items>li{
-     margin-right: 20px;
- }
+
+
+
 
 
  
