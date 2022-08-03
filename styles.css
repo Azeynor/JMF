@@ -188,23 +188,6 @@ h3 {
   font-family: "Comfortaa", "cursive";
 }
 
-.container-fluid-forth-section {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.p-section > p {
-  position: absolute;
-  top: 50%;
-  left: 37%;
-  transform: translate(-50%, -50%);
-  color: rgb(250, 246, 246);
-  font-weight: 700;
-  font-size: 5.5vmin;
-  font-family: "Comfortaa", "cursive";
-}
-
 .container-fluid-fifth-section {
   position: relative;
 }

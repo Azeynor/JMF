@@ -256,22 +256,7 @@ h3{
     font-family: $font-text;
 }
 
-.container-fluid-forth-section{
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
 
-.p-section >p{
-    position: absolute;
-    top: 50%;
-    left:37%;
-    transform: translate(-50%, -50%);
-    color: $white-color;
-    font-weight: $font-weight-title-landing-page;
-    font-size: 5.5vmin;
-    font-family: $font-text;
-}
 
 .container-fluid-fifth-section{
     position: relative;
