@@ -27,12 +27,12 @@
   padding: 0px 45px 0px 45px;
 }
 
-.container-fluid {
+.container-landing-page {
   font-family: "Comfortaa", "cursive";
   padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .row {
@@ -41,9 +41,11 @@
 }
 
 .col-sm {
-  padding: 20px;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .main-title-landing-page {
@@ -52,7 +54,6 @@
   font-size: 4vmin;
   padding: 10px;
   margin-top: 70px;
-  text-align: start;
 }
 
 .second-title-landing-page {
@@ -60,7 +61,6 @@
   font-weight: 700;
   font-size: 2.8vmin;
   padding: 10px;
-  text-align: start;
 }
 
 .btn.btn-primary {
@@ -236,6 +236,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 10px 0;
 }
 
 .menu-items {
