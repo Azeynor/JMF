@@ -140,7 +140,7 @@ h2 {
   font-size: 1.9vmin;
 }
 
-.container-fluid.third-section {
+.container-third-section {
   background-color: rgb(122, 135, 252);
   margin-top: 3%;
   display: flex;
