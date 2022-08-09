@@ -290,29 +290,35 @@ h4{
 }
 
 
-.container-fluid.footer-section{
+.container-footer-section{
     background-color: $deepblue-color;
     color: $white-color;
     font-size: $font-size-text-text;
+}
+
+.footer-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 10px 0;
-
-}
-
-.menu-items{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    padding-top: 10px;
     
 }
+
+.footer-title,
+.menu-items,
+.footer-owner-of-website{
+    flex-wrap: wrap;
+}
+
+
 
 .menu-items > a {
     list-style: none;
     text-decoration: none;
     color:white;
-    margin-left: 25px; 
+   
+    
+   
  }
 
 
@@ -410,8 +416,9 @@ h4{
     }
 
     .illustration > svg{
-        height: 90;
-        background-color: red;
+        height: 120px;
+        width:auto;
+      
     }
 
     
