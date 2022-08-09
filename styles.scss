@@ -273,6 +273,9 @@ h4{
     font-weight: $font-weight-title-landing-page;
     font-size: $font-size-title-landing-page-big;
     font-family: $font-text;
+    display: flex;
+    text-align: center;
+    
 }
 
 .social-media-section{
@@ -285,7 +288,6 @@ h4{
 .social-media-icon{
     height: 160px;
     padding-left: 25px;
-    align-items: center;
     padding-top: 3vmin;
 }
 

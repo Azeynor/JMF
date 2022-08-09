@@ -213,6 +213,8 @@ h4 {
   font-weight: 700;
   font-size: 4vmin;
   font-family: "Comfortaa", "cursive";
+  display: flex;
+  text-align: center;
 }
 
 .social-media-section {
@@ -225,7 +227,6 @@ h4 {
 .social-media-icon {
   height: 160px;
   padding-left: 25px;
-  align-items: center;
   padding-top: 3vmin;
 }
 
