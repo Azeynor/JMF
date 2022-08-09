@@ -195,7 +195,6 @@ h3 {
 .container-media-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: absolute;
   top: 50%;
@@ -203,26 +202,17 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
-.h4-section {
-  display: flex;
-  justify-content: center;
-}
-
 h4 {
   color: rgb(52, 58, 109);
   font-weight: 700;
   font-size: 4vmin;
   font-family: "Comfortaa", "cursive";
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .social-media-section {
-  display: flex;
-  flex-direction: row;
+  background-color: pink;
   justify-content: center;
-  align-items: center;
 }
 
 .social-media-icon {

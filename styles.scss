@@ -256,16 +256,11 @@ h3{
 .container-media-text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-}
-.h4-section{
-    display: flex;
-    justify-content: center;
 }
 
 h4{
@@ -273,22 +268,19 @@ h4{
     font-weight: $font-weight-title-landing-page;
     font-size: $font-size-title-landing-page-big;
     font-family: $font-text;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .social-media-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+     background-color: pink;
+     justify-content: center; 
+
 }
 
 .social-media-icon{
     height: 160px;
     padding-top: 3vmin;
+  
 }
 
 
